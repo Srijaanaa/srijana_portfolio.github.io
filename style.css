@@ -1,0 +1,267 @@
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+* {
+    margin: 0;
+    padding: 0;
+}
+html { font-size:100%; }
+body {
+    color: aliceblue;
+    font-family: "playfair display", serif;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html, .css,.js,.c {
+    background-color: #422d67;
+     border-radius: 15px;
+    }
+.html,.css {
+    width: 60%;
+    }
+.js {
+    width: 30%;
+    }
+.c {
+    width: 70%;
+    }
+    .box{
+        margin: 30px
+    }
+/* .dark-mode {
+    background-color: rgb(6, 6, 6);
+    color: rgb(238, 226, 226);
+}
+
+.dark {
+    width: 150px;
+    height: 30px;
+    float: right;
+    text-align: center;
+
+}
+
+.dark button {
+    border-radius: 50px;
+    padding: 20px;
+    background: none;
+    border: 2px black solid;
+    color: white;
+} */
+
+#image{
+    width:90%;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ .logo{
+    width: 75px;
+ }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    letter-spacing: 1px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(243, 246, 249);
+}
+
+.name:hover, a:hover {
+    color: rgb(20, 245, 253);
+    font-weight: bold;
+    font-size: 1.2rem;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#first {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+#first>div {
+    width: 30%;
+}
+
+.leftsection {
+    align-items: center;
+    font-size: 3rem;
+}
+
+.social-media {
+    font-size: 1.75rem;
+    word-spacing: 20px;
+}
+
+.btn {
+    background:none;
+    color: rgb(19, 20, 20);
+    padding: 8px 16px;
+    border: 2px black solid;
+    border-radius: 50px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.hide {
+    visibility: hidden;
+    font-size: 12px;
+    padding: 10px;
+  } 
+  #first:hover + .hide{
+    visibility: visible;
+  }
+.right-me img {
+    width: 175px;
+    border: 2px black solid;
+    border-radius: 50px;
+}
+
+#aboutme {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    padding: 23px;
+    margin: 77px;
+    border-radius: 10px;
+}
+.greeting{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    visibility: hidden;
+}
+#aboutme:hover + .greeting{
+    visibility: visible;
+}
+.me-content h1 {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+#education , #skills,#experience,#contact   {
+    padding: 23px;
+    margin: 77px;
+    border-radius: 10px;
+}
+
+.me-title,.skills-title, .edu-title,.exp-title ,.con-title,
+.mes-title {
+    font-size: 29px;
+    text-align: left;
+}
+
+.me-content,.skills-content,.edu-content,.exp-content ,.con-content{
+    padding: 23px;
+    font-size: 20px;
+}
+
+#aboutme:hover,#skills:hover,#education:hover,#experience:hover,#contact:hover,#message:hover,#image:hover {
+    font-size: 1.2rem;
+    transform: scale(1.1);
+}
+
+.edu-year {
+    font-size: 25px;
+}
+.connect{
+    display: flex;
+}
+#contact, 
+#message {
+    width: 50%;
+}
+
+.mes-content {
+    margin-bottom: 15px;
+    padding: 23px;
+    font-size: 20px;
+}
+input,
+textarea {
+    width: 100%;
+    margin: 1.5px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: black;
+    background: none;
+    border: 2px white solid;
+    color: rgb(255, 255, 255);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+.mes-content button {
+     display: inline-block;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: 0.4 ease;
+    margin-bottom: 80px;
+    color: white;
+    background: none;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+#message button:hover {
+    background-color: #3d3b4d;
+}
+#message{
+    margin:80px;
+}
+
+.color {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+
+}
+footer {
+    color: white;
+    height: 50px;
+
+}
+.footer-rights {
+    color: #cbd5e0;
+    font-size: 1 rem;
+    text-align: center;
+}
