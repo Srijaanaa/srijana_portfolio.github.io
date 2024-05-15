@@ -152,11 +152,13 @@
             <section id="message">
                 <div class="mes-title">Send Message</div>
                 <div class="mes-content">
-                    <form method="post" action="/sendMessage">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="e6c7e7d7-3998-4f8e-9168-6ab11dbc5472">
                         <input type="text" name="" placeholder="your name">
                         <input type="email" name="" placeholder="your email">
                         <textarea name="message" placeholder="your message"></textarea>
                         <button type="submit">send message</button>
+                        <div class="h-captcha" data-captcha="true"></div>
                     </form>
                 </div>
             </section>
@@ -201,6 +203,8 @@
             scale: 1.00,
             scaleMobile: 1.00
         })
+    </script>
+    <script src="https://web3forms.com/client/script.js" async defer>
     </script>
     <script>
         document.addEventListener('contextmenu', event => event.preventDefault());
